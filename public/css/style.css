@@ -1,0 +1,74 @@
+
+html{
+	height:100%;
+	width: 100%;
+	z-index:1;
+}
+body{
+	width:100%;
+	height:100%;
+	z-index:1;
+}
+
+#map-canvas{
+	height:100%;
+	width:100%;
+	z-index:50;
+	position:absolute;
+}
+#bigNav{
+	background-color:#B0122B;
+	z-index:75;
+	position: absolute;
+	box-shadow: 10px 10px 10px #888888;
+	opacity:.93;
+	margin-left:10%;
+	border: 2px solid black;
+}
+
+#smallNav{
+	z-index:75;
+}
+#bigContainer{
+	margin-top: 1%;
+	width:100%;
+	z-index:75;
+	position:absolute;
+}
+#bigContainer >a > img{
+	display:block;
+	margin:auto;
+}
+
+.nav >.row > .col-md-10> li > a  {
+position: relative;
+display: block;
+padding: 10px;
+}
+
+.nav > li > .row > .col-md-10 > a  {
+position: relative;
+display: block;
+padding: 10px ;
+color:#FAFAF8;
+border: 2px solid #B0122B;
+}
+
+.nav > li >.row > .col-md-10 > a:hover  {
+background-color: #FAFAF8;
+color:#B0122B;
+border-radius: 5px; 
+-moz-border-radius: 5px; 
+-webkit-border-radius: 5px; 
+border: 2px solid #B0122B;
+}
+
+.nav > li > .row > .col-md-2 > span  {
+position: relative;
+display: block;
+padding: 4px ;
+color:#FAFAF8;
+}
+
+
+
